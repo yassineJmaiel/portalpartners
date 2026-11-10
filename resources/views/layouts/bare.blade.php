@@ -1,0 +1,1 @@
+<!doctype html><html lang="{{ App\Portal\Lang::current() }}" dir="{{ App\Portal\Lang::dir() }}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>VSahha Provider Portal</title><link rel="stylesheet" href="/css/app.css"></head><body><main class="page">@yield('content')</main></body></html>

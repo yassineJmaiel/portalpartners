@@ -1,0 +1,26 @@
+/* What the server-rendered pages add to the portal's design */
+[hidden]{display:none!important}
+.tabs a{border:0;background:none;border-radius:9px;padding:7px 14px;font-weight:700;font-size:13px;color:var(--muted);white-space:nowrap}
+.tabs a.on{background:var(--mint);color:var(--deep)}
+.scrim{display:none}
+.side.open~.scrim{display:block}
+.palette .res a{display:flex;gap:10px;align-items:center;width:100%;padding:8px 10px;border-radius:10px;text-align:start}
+.palette .res a.sel,.palette .res a:hover{background:var(--sunk)}
+.palette .res small{display:block;color:var(--muted);font-size:12px}
+.notif a{display:block}
+.drop input[type=file]{display:none}
+label.drop{cursor:pointer}
+.docreq label.drop{margin:0}
+form.li{margin:0}
+.me form,.drop-menu form{margin:0}
+.drop-menu form button{width:100%}
+.tbl tr.click a{color:inherit}
+.mention-pick{position:absolute;z-index:30}
+.note-box{position:relative}
+.prov-show{border:0;background:none;padding:0;cursor:pointer;font:inherit}
+.idoc .pdfsheet{min-height:380px}
+.idoc .pdfcanvas iframe{width:100%;min-height:600px;border:0}
+.idoc tr.click{cursor:pointer}
+.loading[data-stage]{font-size:13px;color:var(--muted)}
+#main.soft-busy{opacity:.55;pointer-events:none;transition:opacity .15s .1s}
+section.soft-busy{opacity:.55;pointer-events:none;transition:opacity .15s}
